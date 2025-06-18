@@ -13,9 +13,9 @@ First, update your package list and install `git` and `curl`:
 
 Use the official Docker installation script:
 
-> curl -fsSL https://get.docker.com -o get-docker.sh
-> sudo sh get-docker.sh
-> sudo apt-get install -y docker-compose-plugin
+> curl -fsSL https://get.docker.com -o get-docker.sh \
+> sudo sh get-docker.sh \
+> sudo apt-get install -y docker-compose-plugin \
 
 Important: You must reboot your Raspberry Pi after this step to apply Docker group permissions:
 
@@ -25,15 +25,15 @@ Important: You must reboot your Raspberry Pi after this step to apply Docker gro
 
 After rebooting, clone this GitHub repo and navigate into the project folder:
 
-> git clone https://github.com/tamusandesh99/captive-portal.git
+> git clone https://github.com/tamusandesh99/captive-portal.git \
 > cd captive-portal
 
 ### 4. Start the Docker Container
 
 Make sure the setup script is executable by running chmod, then execute it:
 
-> chmod +x setup.sh stop.sh
-then 
+> chmod +x setup.sh stop.sh \
+then \
 > ./setup.sh
 
 This will use Docker Compose to start a container that serves your site via Nginx.
