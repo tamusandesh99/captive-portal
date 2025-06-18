@@ -33,7 +33,6 @@ After rebooting, clone this GitHub repo and navigate into the project folder:
 Make sure the setup script is executable by running chmod, then execute it:
 
 > chmod +x setup.sh stop.sh \
-then \
 > ./setup.sh
 
 This will use Docker Compose to start a container that serves your site via Nginx.
