@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo "Stopping any running containers..."
-docker compose down
+sudo docker compose down
 
 echo "Building docker images..."
-docker compose build
+ sudo docker compose build
 
 echo "Starting containers in detached mode..."
-docker compose up -d
+sudo docker compose up -d
 
 echo "Setup complete. Containers are running."

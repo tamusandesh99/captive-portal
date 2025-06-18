@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "Stopping containers..."
-docker compose down
+sudo docker compose down
 
 echo "Containers stopped."
