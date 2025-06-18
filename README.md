@@ -50,3 +50,7 @@ Then open a browser from any device on the same Wi-Fi/network and visit:
 Example:
 
 http://192.168.0.101:8080
+
+
+### 6. Stop the site
+ > ./stop.sh
